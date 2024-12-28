@@ -1,0 +1,119 @@
+| Sets Numerical Order for Space Trays from 1 to 10
+NumLock "tell @cababs91, Shift+NumLock Sets Numerical Order for Space Trays from 1 to 10"
+Shift+NumLock  "TraySetIndex 0 0 $$ TraySetIndex 1 1 $$ TraySetIndex 2 2 $$ TraySetIndex 3 3 $$ TraySetIndex 4 4 $$ TraySetIndex 5 5 $$ TraySetIndex 6 6 $$ TraySetIndex 7 7 $$ TraySetIndex 8 8 $$ TraySetIndex 9 9 $$"
+
+| Clears Space Trays
+F9 "tell @cababs91, F9+<trayint> eg F9+1 clears tray 2. Clears Powers from Space Trays 1 to 10"
+F9+0 "trayelemdestroy 0 0 $$ trayelemdestroy 0 1 $$ trayelemdestroy 0 2 $$ trayelemdestroy 0 3 $$ trayelemdestroy 0 4 $$ trayelemdestroy 0 5 $$ trayelemdestroy 0 6 $$ trayelemdestroy 0 7 $$ trayelemdestroy 0 8 $$ trayelemdestroy 0 9  $$"
+F9+1 "trayelemdestroy 1 0 $$ trayelemdestroy 1 1 $$ trayelemdestroy 1 2 $$ trayelemdestroy 1 3 $$ trayelemdestroy 1 4 $$ trayelemdestroy 1 5 $$ trayelemdestroy 1 6 $$ trayelemdestroy 1 7 $$ trayelemdestroy 1 8 $$ trayelemdestroy 1 9  $$"
+F9+2 "trayelemdestroy 2 0 $$ trayelemdestroy 2 1 $$ trayelemdestroy 2 2 $$ trayelemdestroy 2 3 $$ trayelemdestroy 2 4 $$ trayelemdestroy 2 5 $$ trayelemdestroy 2 6 $$ trayelemdestroy 2 7 $$ trayelemdestroy 2 8 $$ trayelemdestroy 2 9  $$"
+F9+3 "trayelemdestroy 3 0 $$ trayelemdestroy 3 1 $$ trayelemdestroy 3 2 $$ trayelemdestroy 3 3 $$ trayelemdestroy 3 4 $$ trayelemdestroy 3 5 $$ trayelemdestroy 3 6 $$ trayelemdestroy 3 7 $$ trayelemdestroy 3 8 $$ trayelemdestroy 3 9  $$"
+F9+4 "trayelemdestroy 4 0 $$ trayelemdestroy 4 1 $$ trayelemdestroy 4 2 $$ trayelemdestroy 4 3 $$ trayelemdestroy 4 4 $$ trayelemdestroy 4 5 $$ trayelemdestroy 4 6 $$ trayelemdestroy 4 7 $$ trayelemdestroy 4 8 $$ trayelemdestroy 4 9  $$"
+F9+5 "trayelemdestroy 5 0 $$ trayelemdestroy 5 1 $$ trayelemdestroy 5 2 $$ trayelemdestroy 5 3 $$ trayelemdestroy 5 4 $$ trayelemdestroy 5 5 $$ trayelemdestroy 5 6 $$ trayelemdestroy 5 7 $$ trayelemdestroy 5 8 $$ trayelemdestroy 5 9  $$"
+F9+6 "trayelemdestroy 6 0 $$ trayelemdestroy 6 1 $$ trayelemdestroy 6 2 $$ trayelemdestroy 6 3 $$ trayelemdestroy 6 4 $$ trayelemdestroy 6 5 $$ trayelemdestroy 6 6 $$ trayelemdestroy 6 7 $$ trayelemdestroy 6 8 $$ trayelemdestroy 6 9  $$"
+F9+7 "trayelemdestroy 7 0 $$ trayelemdestroy 7 1 $$ trayelemdestroy 7 2 $$ trayelemdestroy 7 3 $$ trayelemdestroy 7 4 $$ trayelemdestroy 7 5 $$ trayelemdestroy 7 6 $$ trayelemdestroy 7 7 $$ trayelemdestroy 7 8 $$ trayelemdestroy 7 9  $$"
+F9+8 "trayelemdestroy 8 0 $$ trayelemdestroy 8 1 $$ trayelemdestroy 8 2 $$ trayelemdestroy 8 3 $$ trayelemdestroy 8 4 $$ trayelemdestroy 8 5 $$ trayelemdestroy 8 6 $$ trayelemdestroy 8 7 $$ trayelemdestroy 8 8 $$ trayelemdestroy 8 9  $$"
+F9+9 "trayelemdestroy 9 0 $$ trayelemdestroy 9 1 $$ trayelemdestroy 9 2 $$ trayelemdestroy 9 3 $$ trayelemdestroy 9 4 $$ trayelemdestroy 9 5 $$ trayelemdestroy 9 6 $$ trayelemdestroy 9 7 $$ trayelemdestroy 9 8 $$ trayelemdestroy 9 9  $$"
+
+| Tray 1 - Default
+1 "+STOTrayExecByTray 0 0"
+2 "+STOTrayExecByTray 0 1"
+3 "+STOTrayExecByTray 0 2"
+4 "+STOTrayExecByTray 0 3"
+5 "+STOTrayExecByTray 0 4"
+6 "+STOTrayExecByTray 0 5"
+7 "+STOTrayExecByTray 0 6"
+8 "+STOTrayExecByTray 0 7"
+9 "+STOTrayExecByTray 0 8"
+0 "+STOTrayExecByTray 0 9"
+
+| Tray 2 - Default
+Ctrl+1 "+STOTrayExecByTray 1 0"
+Ctrl+2 "+STOTrayExecByTray 1 1"
+Ctrl+3 "+STOTrayExecByTray 1 2"
+Ctrl+4 "+STOTrayExecByTray 1 3"
+Ctrl+5 "+STOTrayExecByTray 1 4"
+Ctrl+6 "+STOTrayExecByTray 1 5"
+Ctrl+7 "+STOTrayExecByTray 1 6"
+Ctrl+8 "+STOTrayExecByTray 1 7"
+Ctrl+9 "+STOTrayExecByTray 1 8"
+Ctrl+0 "+STOTrayExecByTray 1 9"
+
+| Tray 3 - Default
+Alt+1 "+STOTrayExecByTray 2 0"
+Alt+2 "+STOTrayExecByTray 2 1"
+Alt+3 "+STOTrayExecByTray 2 2"
+Alt+4 "+STOTrayExecByTray 2 3"
+Alt+5 "+STOTrayExecByTray 2 4"
+Alt+6 "+STOTrayExecByTray 2 5"
+Alt+7 "+STOTrayExecByTray 2 6"
+Alt+8 "+STOTrayExecByTray 2 7"
+Alt+9 "+STOTrayExecByTray 2 8"
+Alt+0 "+STOTrayExecByTray 2 9"
+
+| Tray 4 - Default
+Shift+1 "+STOTrayExecByTray 3 0"
+Shift+2 "+STOTrayExecByTray 3 1"
+Shift+3 "+STOTrayExecByTray 3 2"
+Shift+4 "+STOTrayExecByTray 3 3"
+Shift+5 "+STOTrayExecByTray 3 4"
+Shift+6 "+STOTrayExecByTray 3 5"
+Shift+7 "+STOTrayExecByTray 3 6"
+Shift+8 "+STOTrayExecByTray 3 7"
+Shift+9 "+STOTrayExecByTray 3 8"
+Shift+0 "+STOTrayExecByTray 3 9"
+
+| Tray 5
+| Tray 6
+| Tray 7 (default tray for spacebar spam) +Power_Exec Distribute_Shields$$ remved due to the fact it has a chance to stop weapons from fireing
+Space "+STOTrayExecByTray 6 0 $$ +STOTrayExecByTray 6 1 $$ +STOTrayExecByTray 6 2 $$ +STOTrayExecByTray 6 3 $$ +STOTrayExecByTray 6 4 $$ +STOTrayExecByTray 6 5 $$ +STOTrayExecByTray 6 6 $$ +STOTrayExecByTray 6 7 $$ +STOTrayExecByTray 6 8 $$ +STOTrayExecByTray 6 9 $$ +STOTrayExecByTray 6 9 $$ +STOTrayExecByTray 6 8 $$ +STOTrayExecByTray 6 7 $$ +STOTrayExecByTray 6 6 $$ +STOTrayExecByTray 6 5 $$ +STOTrayExecByTray 6 4 $$ +STOTrayExecByTray 6 3 $$ +STOTrayExecByTray 6 2 $$ +STOTrayExecByTray 6 1 $$ +STOTrayExecByTray 6 0 $$"
+
+| Tray 8 (Heal Tray, used for Team Heals) +Power_Exec Distribute_Shields$$ remved due to the fact it has a chance to stop weapons from fireing
+Shift+Space "+trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
+
+| Tray 9
+| Tray 10 (Powers that are neededfor keybind. Tac/Sci team instead of +Power_Exec Distribute_Shields)
+
+| Ally heals - +Power_Exec Distribute_Shields$$ remved due to the fact it has a chance to stop weapons from fireing
+F2 "TargetTeammate 1 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
+F3 "TargetTeammate 2 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
+F4 "TargetTeammate 3 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
+F5 "TargetTeammate 4 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
+
+| teamchat have heals
+Shift+F1 "team got any heals?"
+Shift+F2 "TargetTeammate 1 $$ Team $target, Here have some heals!"
+Shift+F3 "TargetTeammate 2 $$ Team $target, Here have some heals!"
+Shift+F4 "TargetTeammate 3 $$ Team $target, Here have some heals!"
+Shift+F5 "TargetTeammate 4 $$ Team $target, Here have some heals!"
+
+| Other Keys
+| Ctrl+Space fires all weapons - +Power_Exec Distribute_Shields$$ remved due to the fact it has a chance to stop weapons from fireing
+Ctrl+Space "GenSendMessage HUD_Root FireAll$$"
+
+| Multiply "GenSendMessage Inventory_Salvage_Root dialogok $$ Bagsort 2 1"
+Multiply "GenSendMessage Inventory_Stackdelete_Root dialogok $$ Bagsort 2 1"
+
+| teamchat kill this
+` "Team Target that explosion and FIRE!: $target"
+
+| recruit message
+Y "tell @cababs91, Shift+Y UNFOUND recruit message"
+Shift+Y "zone Come and join us at UNFOUND. Sure the FED (Unfound) faction has Tier 5 in the following holdings: Starbase, Spire, Research Lab, K-13, Embassy, Dilithium Mine & Tier 3 Colony World and our KDF faction (House of Unfound) only has Teir 3 Starbase, Tier 1 in the following holdings: Spire, Embassy & Dilthium Mine, but we also have a TeamSpeak3, Discord, website, psyche shattering profanity, wanton chaos and actual fun... UNFOUND.NET"
+
+| Power Presets
+Shift+W "StatsPreset_Load Preset_1"
+Shift+D "StatsPreset_Load Preset_2"
+Shift+S "StatsPreset_Load Preset_3"
+Shift+A "StatsPreset_Load Preset_4"
+
+| This will allow you to cycle through the 4 modes with one key.
+\ "Setallcarrierpetmode attack $$ Setallcarrierpetmode escort $$ Setallcarrierpetmode intercept $$ Setallcarrierpetmode recall"
+
+|activation/deactivation combatlog
+[ "CombatLog 1 $$ tell @cababs91, CombatLog ON"
+] "CombatLog 0 $$ tell @cababs91, CombatLog OFF"
+
+|set target modes, Tab is forward Shift+tab is nearest not for
+Tab "Target_Enemy_Near_ForArc 90"
+Shift+Tab "Target_Enemy_Near"
