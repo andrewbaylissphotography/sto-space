@@ -65,16 +65,16 @@ Shift+0 "+STOTrayExecByTray 3 9"
 
 | Tray 5
 | Tray 6
-| Tray 7 (default tray for spacebar spam) +Power_Exec Distribute_Shields$$ remved due to the fact it has a chance to stop weapons from fireing
+| Tray 7 (default tray for spacebar spam)
 Space "+STOTrayExecByTray 6 0 $$ +STOTrayExecByTray 6 1 $$ +STOTrayExecByTray 6 2 $$ +STOTrayExecByTray 6 3 $$ +STOTrayExecByTray 6 4 $$ +STOTrayExecByTray 6 5 $$ +STOTrayExecByTray 6 6 $$ +STOTrayExecByTray 6 7 $$ +STOTrayExecByTray 6 8 $$ +STOTrayExecByTray 6 9 $$ +STOTrayExecByTray 6 9 $$ +STOTrayExecByTray 6 8 $$ +STOTrayExecByTray 6 7 $$ +STOTrayExecByTray 6 6 $$ +STOTrayExecByTray 6 5 $$ +STOTrayExecByTray 6 4 $$ +STOTrayExecByTray 6 3 $$ +STOTrayExecByTray 6 2 $$ +STOTrayExecByTray 6 1 $$ +STOTrayExecByTray 6 0 $$"
 
-| Tray 8 (Heal Tray, used for Team Heals) +Power_Exec Distribute_Shields$$ remved due to the fact it has a chance to stop weapons from fireing
+| Tray 8 (Heal Tray, used for Team Heals)
 Shift+Space "+trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
 
 | Tray 9
-| Tray 10 (Powers that are neededfor keybind. Tac/Sci team instead of +Power_Exec Distribute_Shields)
+| Tray 10
 
-| Ally heals - +Power_Exec Distribute_Shields$$ remved due to the fact it has a chance to stop weapons from fireing
+| Ally heals
 F2 "TargetTeammate 1 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
 F3 "TargetTeammate 2 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
 F4 "TargetTeammate 3 $$ +trayExecBytray 7 0 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 9 $$ +trayexecbytray 7 8 $$ +trayexecbytray 7 7 $$ +trayexecbytray 7 6 $$ +trayexecbytray 7 5 $$ +trayexecbytray 7 4 $$ +trayexecbytray 7 3 $$ +trayexecbytray 7 2 $$ +trayexecbytray 7 1 $$ +trayexecbytray 7 0 $$"
