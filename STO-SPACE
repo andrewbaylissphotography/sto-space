@@ -1,9 +1,9 @@
 | Sets Numerical Order for Space Trays from 1 to 10
-NumLock "tell @cababs91, Shift+NumLock Sets Numerical Order for Space Trays from 1 to 10"
+NumLock "playersay, Shift+NumLock Sets Numerical Order for Space Trays from 1 to 10"
 Shift+NumLock  "TraySetIndex 0 0 $$ TraySetIndex 1 1 $$ TraySetIndex 2 2 $$ TraySetIndex 3 3 $$ TraySetIndex 4 4 $$ TraySetIndex 5 5 $$ TraySetIndex 6 6 $$ TraySetIndex 7 7 $$ TraySetIndex 8 8 $$ TraySetIndex 9 9 $$"
 
 | Clears Space Trays
-F9 "tell @cababs91, F9+<trayint> eg F9+1 clears tray 2. Clears Powers from Space Trays 1 to 10"
+F9 "playersay, F9+<trayint> eg F9+1 clears tray 2. Clears Powers from Space Trays 1 to 10"
 F9+0 "trayelemdestroy 0 0 $$ trayelemdestroy 0 1 $$ trayelemdestroy 0 2 $$ trayelemdestroy 0 3 $$ trayelemdestroy 0 4 $$ trayelemdestroy 0 5 $$ trayelemdestroy 0 6 $$ trayelemdestroy 0 7 $$ trayelemdestroy 0 8 $$ trayelemdestroy 0 9  $$"
 F9+1 "trayelemdestroy 1 0 $$ trayelemdestroy 1 1 $$ trayelemdestroy 1 2 $$ trayelemdestroy 1 3 $$ trayelemdestroy 1 4 $$ trayelemdestroy 1 5 $$ trayelemdestroy 1 6 $$ trayelemdestroy 1 7 $$ trayelemdestroy 1 8 $$ trayelemdestroy 1 9  $$"
 F9+2 "trayelemdestroy 2 0 $$ trayelemdestroy 2 1 $$ trayelemdestroy 2 2 $$ trayelemdestroy 2 3 $$ trayelemdestroy 2 4 $$ trayelemdestroy 2 5 $$ trayelemdestroy 2 6 $$ trayelemdestroy 2 7 $$ trayelemdestroy 2 8 $$ trayelemdestroy 2 9  $$"
@@ -98,7 +98,7 @@ Multiply "GenSendMessage Inventory_Stackdelete_Root dialogok $$ Bagsort 2 1"
 ` "Team Target that explosion and FIRE!: $target"
 
 | recruit message
-Y "tell @cababs91, Shift+Y UNFOUND recruit message"
+Y "playersay, Shift+Y UNFOUND recruit message"
 Shift+Y "zone Come and join us at UNFOUND. Sure the FED (Unfound) faction has Tier 5 in the following holdings: Starbase, Spire, Research Lab, K-13, Embassy, Dilithium Mine & Tier 3 Colony World and our KDF faction (House of Unfound) only has Teir 3 Starbase, Tier 1 in the following holdings: Spire, Embassy & Dilthium Mine, but we also have a TeamSpeak3, Discord, website, psyche shattering profanity, wanton chaos and actual fun... UNFOUND.NET"
 
 | Power Presets
@@ -111,8 +111,8 @@ Shift+A "StatsPreset_Load Preset_4"
 \ "Setallcarrierpetmode attack $$ Setallcarrierpetmode escort $$ Setallcarrierpetmode intercept $$ Setallcarrierpetmode recall"
 
 |activation/deactivation combatlog
-[ "CombatLog 1 $$ tell @cababs91, CombatLog ON"
-] "CombatLog 0 $$ tell @cababs91, CombatLog OFF"
+[ "CombatLog 1 $$ playersay, CombatLog ON"
+] "CombatLog 0 $$ playersay, CombatLog OFF"
 
 |set target modes, Tab is forward Shift+tab is nearest not for
 Tab "Target_Enemy_Near_ForArc 90"
